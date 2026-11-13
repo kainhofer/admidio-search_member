@@ -14,7 +14,7 @@
   <string name="PLG_SEARCH_SHOW_NAMES_LAST_FIRST">Last name, first name</string>
   <string name="PLG_SEARCH_SHOW_NAMES_FIRST">First name</string>
   <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY">Also search for the city</string>
-  <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY_DESC">If this option is enabled, the plugin will also search for members who live in a certain city. (default: false)</string>
+  <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY_DESC">If this option is enabled, the plugin will also search for members who live in a certain city. (default: disabled)</string>
   <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST">Restrict search to roles</string>
-  <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST_DESC">Enter a comma-separated list of role IDs to only show members of these roles in the search results. Leave at the default value "All" to search all members of the organisation.</string>
+  <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST_DESC">Only members of the selected roles are shown in the search results. Without a selection all members of the organisation are searched.</string>
 </resources>

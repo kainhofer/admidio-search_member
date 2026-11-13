@@ -6,7 +6,7 @@
     "url": "https://www.admidio.org",
     "icon": "bi-search",
     "requires": {
-        "admidio": ">=5.1",
+        "admidio": ">=6.0",
         "php": ">=8.2"
     },
     "autoload": {
@@ -50,8 +50,8 @@
             "description": "PLG_SEARCH_PREFERENCES_SEARCH_CITY_DESC"
         },
         "search_member_roles_sql": {
-            "type": "array",
-            "default": ["All"],
+            "type": "roles",
+            "default": [],
             "label": "PLG_SEARCH_PREFERENCES_ROLES_ID_LIST",
             "description": "PLG_SEARCH_PREFERENCES_ROLES_ID_LIST_DESC"
         }

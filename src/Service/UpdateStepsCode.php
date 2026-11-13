@@ -40,12 +40,12 @@ final class UpdateStepsCode
     }
 
     /**
-     * The roles an old setting names, or all of them if it names none.
+     * The roles an old setting names. An empty list does not restrict the search.
      * @param mixed $roles
      * @return array<int,mixed>
      */
     public static function roles(mixed $roles): array
     {
-        return is_array($roles) && $roles !== array() ? $roles : array('All');
+        return is_array($roles) ? $roles : array();
     }
 }

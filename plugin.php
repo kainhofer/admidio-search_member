@@ -30,23 +30,17 @@ if (realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === __FILE__) {
 }
 
 /**
- * The settings of the plugin, with the role list resolved.
+ * The settings of the plugin.
  *
- * A role list that nobody narrowed down holds the sentinel "All", which means every member is
- * searched and no restriction has to be added to the search query.
+ * The role list holds the IDs of the roles the search is restricted to. An empty list means every
+ * member is searched and no restriction has to be added to the search query.
  * @param Plugin $plugin
  * @return array<string,mixed>
  * @throws \Admidio\Infrastructure\Exception
  */
 function searchMemberGetConfig(Plugin $plugin): array
 {
-    $config = $plugin->getSettingValues();
-
-    if ($config['search_member_roles_sql'] === array('All')) {
-        $config['search_member_roles_sql'] = array();
-    }
-
-    return $config;
+    return $plugin->getSettingValues();
 }
 
 /**

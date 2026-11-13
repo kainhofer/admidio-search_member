@@ -14,7 +14,7 @@
   <string name="PLG_SEARCH_SHOW_NAMES_LAST_FIRST">Achternaam, voornaam</string>
   <string name="PLG_SEARCH_SHOW_NAMES_FIRST">Voornaam</string>
   <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY">Ook zoeken op woonplaats</string>
-  <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY_DESC">Als deze optie is ingeschakeld, zoekt de plugin ook naar leden die in een bepaalde plaats wonen. (standaard: onwaar)</string>
+  <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY_DESC">Als deze optie is ingeschakeld, zoekt de plugin ook naar leden die in een bepaalde plaats wonen. (standaard: uitgeschakeld)</string>
   <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST">Zoeken beperken tot rollen</string>
-  <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST_DESC">Voer een kommagescheiden lijst met rol-ID's in om alleen leden van deze rollen in de zoekresultaten te tonen. Laat de standaardwaarde "All" staan om alle leden van de organisatie te doorzoeken.</string>
+  <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST_DESC">Alleen leden van de geselecteerde rollen worden in de zoekresultaten getoond. Zonder selectie worden alle leden van de organisatie doorzocht.</string>
 </resources>

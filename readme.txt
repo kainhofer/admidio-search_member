@@ -1,7 +1,7 @@
 ====== Search Member ======
 
 Version 3.0.0
-Plugin for Admidio v5.1+ (uses the native Admidio 5.1 plugin system)
+Plugin for Admidio v6.0+ (uses the Admidio 6 plugin system)
 
 ==== Description ====
 This plugin adds a widget to the overview page. It provides a search field to search for members of
@@ -18,7 +18,7 @@ If your organisation has members across multiple cities, you can include the cit
 The plugin is available at [[https://github.com/nanoflow/search_member]]
 
 ==== Installation ====
-This plugin uses the native Admidio 5.1 plugin system. Deploy this directory as
+This plugin uses the Admidio 6 plugin system. Deploy this directory as
 plugins/search_member/ below your Admidio installation, then install and enable it from
 *Administration → Extensions*. All preferences, including the ones a version before 3.0.0 kept in
 config.php, are then edited on the plugin's own preferences panel; a config.php from a previous

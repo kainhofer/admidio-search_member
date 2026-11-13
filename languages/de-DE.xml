@@ -14,7 +14,7 @@
   <string name="PLG_SEARCH_SHOW_NAMES_LAST_FIRST">Nachname, Vorname</string>
   <string name="PLG_SEARCH_SHOW_NAMES_FIRST">Vorname</string>
   <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY">Auch nach Wohnort suchen</string>
-  <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY_DESC">Wenn diese Option aktiviert ist, sucht das Plugin auch nach Mitgliedern, die in einem bestimmten Ort wohnen. (Standard: falsch)</string>
+  <string name="PLG_SEARCH_PREFERENCES_SEARCH_CITY_DESC">Wenn diese Option aktiviert ist, sucht das Plugin auch nach Mitgliedern, die in einem bestimmten Ort wohnen. (Standard: deaktiviert)</string>
   <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST">Suche auf Rollen einschränken</string>
-  <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST_DESC">Geben Sie eine kommagetrennte Liste von Rollen-IDs ein, damit nur Mitglieder dieser Rollen in den Suchergebnissen angezeigt werden. Belassen Sie den Standardwert "All", um alle Mitglieder der Organisation zu durchsuchen.</string>
+  <string name="PLG_SEARCH_PREFERENCES_ROLES_ID_LIST_DESC">Nur Mitglieder der ausgewählten Rollen werden in den Suchergebnissen angezeigt. Ohne Auswahl werden alle Mitglieder der Organisation durchsucht.</string>
 </resources>
